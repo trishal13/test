@@ -20,7 +20,7 @@ export default function json2html(data) {
     });
     
     // Close the table tags
-    html += </tbody></table>;
+    html += `</tbody></table>`;
     
     return html;
 }
